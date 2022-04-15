@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,26 @@ body {
 }
 
 /* Add styles here! */
+
+.title {
+  color: hsl(0deg, 0%, 0%);
+  font-size: 2rem;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-style: solid;
+  border-width: 0 0 8px 0;
+  border-color: hsl(45deg, 100%, 40%);
+  padding: 16px;
+  width: max-content;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+p {
+  color: hsl(0deg, 0%, 0%);
+  font-size: 1.5rem;
+}
